@@ -6,7 +6,7 @@
 /*   By: npetitpi <npetitpi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/11 12:34:58 by npetitpi          #+#    #+#             */
-/*   Updated: 2023/01/25 16:45:57 by npetitpi         ###   ########.fr       */
+/*   Updated: 2023/01/27 14:46:26 by npetitpi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,7 +71,6 @@ int	ft_render(t_data *game)
 	return (0);
 }
 
-///Strlen2////
 size_t	ft_strlen2(const char *s)
 {
 	size_t	len;

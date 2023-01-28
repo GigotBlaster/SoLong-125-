@@ -6,7 +6,7 @@
 /*   By: npetitpi <npetitpi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/12 15:23:01 by npetitpi          #+#    #+#             */
-/*   Updated: 2023/01/12 22:01:42 by npetitpi         ###   ########.fr       */
+/*   Updated: 2023/01/27 14:06:42 by npetitpi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,7 @@ char	**ft_split(char const *s, char c)
 	size_t	j;
 	int		index;
 
-	strs =malloc((ft_count_strs(s, c) + 1) * sizeof(char *));
+	strs = malloc((ft_count_strs(s, c) + 1) * sizeof(char *));
 	if (!strs)
 		return (0);
 	i = 0;

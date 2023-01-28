@@ -6,7 +6,7 @@
 /*   By: npetitpi <npetitpi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/11 12:34:53 by npetitpi          #+#    #+#             */
-/*   Updated: 2023/01/24 18:03:34 by npetitpi         ###   ########.fr       */
+/*   Updated: 2023/01/27 14:47:45 by npetitpi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ void	ft_check_winner(t_data *game)
 
 void	ft_game_over(t_data *game)
 {
-	write(1, "Saiko got caught! You lose.\n", 28);
+	write(1, "Saiko got bitten! You lose.\n", 28);
 	ft_clear_images(game);
 	ft_free_map(game);
 	mlx_destroy_window(game->mlx, game->win);

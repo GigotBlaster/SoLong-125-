@@ -6,11 +6,11 @@
 /*   By: npetitpi <npetitpi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/26 18:39:05 by npetitpi          #+#    #+#             */
-/*   Updated: 2023/01/26 18:41:44 by npetitpi         ###   ########.fr       */
+/*   Updated: 2023/01/27 14:03:00 by npetitpi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "so_long.h"
+#include"so_long.h"
 
 char	**create_map_tmp(t_data *game)
 {
